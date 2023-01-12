@@ -5,8 +5,6 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Roboto Mono', monospace;
-
-
 }
 
 body {
@@ -56,4 +54,16 @@ body {
     .main::after {
         width: 70vw;
     }
+}
+
+
+
+
+canvas {
+    opacity: .2;
+    width: 100vw;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
