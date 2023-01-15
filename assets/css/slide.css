@@ -4,8 +4,6 @@
     min-height: 20rem;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .container-images {
@@ -14,7 +12,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-right: 1rem;
 }
 
 
@@ -22,7 +19,7 @@
     opacity: 0;
     transition: opacity .2s;
     position: absolute;
-    width: 120%;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -31,20 +28,13 @@
 }
 
 #prev-button {
-    left: 10%;
     z-index: 4;
-    bottom: 10%;
-    top: 135%;
 }
 
-#next-button {
-    right: 10%;
-    top: 135%;
-}
 
 #prev-button,
 #next-button {
-    position: absolute;
+
     width: 1rem;
     height: 1rem;
     border: none;
@@ -62,7 +52,7 @@
 }
 
 #prev-button {
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
 }
 
 #next-button {

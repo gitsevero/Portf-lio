@@ -67,6 +67,10 @@
     opacity: 1
 }
 
+.acordeon.open .content.portfolio {
+    padding: 0;
+}
+
 @media only screen and (min-width: 768px) {
     .acordeon .trigger {
         padding: .7rem 2rem
