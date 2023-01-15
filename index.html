@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/acordeon.css">
     <link rel="stylesheet" href="/assets/css/skill.css">
+    <link rel="stylesheet" href="./assets/css/slide.css">
 
 
     <title>severo dev</title>
@@ -121,62 +122,40 @@
             <button class="trigger" type="button">
                 <h2>Portfólio</h2>
             </button>
+            <div class="content-grade">
+                <ul>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </ul>
+            </div>
+
 
             <div class="content">
-                <ul class="portfolio">
-                    <li>
-                        <h3 class="title github">pokedex</h3>
-                        <button><a href="https://severopokedex.netlify.app" target="_blank">ver
-                                mais</a></button>
-                    </li>
+                <div class="container-slider">
+                    <button id="prev-button"><img src="./assets/img/img-projects/arrow.png" alt="prev-button"></button>
 
-                    <li>
-                    <li>
-                        <h3 class="title github">Git Find</h3>
-                        <p class="about project"> buscador de perfis e repositório no Github atravez do consumo de sua
-                            API
-                        </p>
-                        <button><a href="https://gitsevero.github.io/gitfind/" target="_blank">ver
-                                mais</a></button>
-                    </li>
-                    <li>
-                        <h3 class="title github">previsão do tempo</h3>
-                        <p class="about project">Web app para previsão do tempo, de acordo com a cidade
-                            pesquisada,<br />
-                            consumindo três APIs: uma para bandeiras, outra para a previsão do tempo e a última para uma
-                            imagem de background diferente para cada cidade</p>
-                        <button><a href="https://severo-previsao-do-tempo.netlify.app" target="_blank">ver
-                                mais</a></button>
-                    </li>
+                    <ul class="container-images">
+                        <img src="./assets/img/img-projects/pokedex.png" alt="" class="slider on">
+                        <img src="./assets/img/img-projects/clima.png" alt="" class="slider">
+                        <img src="./assets/img/img-projects/calculadora.png" alt="" class="slider">
+                        <img src="./assets/img/img-projects/jogo-da-velha.png" alt="" class="slider">
+                        <img src="./assets/img/img-projects/gitFind.png" alt="" class="slider">
+                        <img src="./assets/img/img-projects/intagra-clone.png" alt="" class="slider">
+                        <img src="./assets/img/img-projects/portfolio.png" alt="" class="slider">
 
-                    <li>
-                        <h3 class="title github">calculadora-react</h3>
-                        <button><a href="https://gitsevero.github.io/calculadora/" target="_blank">ver
-                                mais</a></button>
-                    </li>
-
-
-                    <li>
-                        <h3 class="title github">jogo da velha-js</h3>
-                        <button><a href="https://severo-jogo-da-velha.netlify.app" target="_blank">ver
-                                mais</a></button>
-                    </li>
-                    <li>
-                        <h3 class="title github">instagram clone</h3>
-                        <p class="about project">clone da tela de cadastro e login do instagram <br><span>"apontado como
-                                site
-                                fraudulento pois é uma copia do instagram"</span></p>
-                        <button><a href="https://severo-instagram-clone.netlify.app/" target="_blank">ver
-                                mais</a></button>
-                    </li>
-                    <li>
-                        <h3 class="title github">portfólio simples</h3>
-                        <button><a href="https://severo-simple-portfolio.netlify.app" target="_blank">ver
-                                mais</a></button>
-                    </li>
-
-
-                </ul>
+                    </ul>
+                    <button id="next-button"><img src="./assets/img/img-projects/arrow.png" alt="next-button"></button>
+                </div>
             </div>
         </section>
 
@@ -185,6 +164,7 @@
     </main>
 
 </body>
+<script src="./assets/js/slide.js"></script>
 <script src="/assets/js/acordeon.js"></script>
 <script src="/assets/js/dropbackground.js"></script>
 
