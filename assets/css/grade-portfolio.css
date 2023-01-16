@@ -3,7 +3,7 @@
 }
 
 .imggrade {
-    display: flex;
+
     width: 50%;
     height: 100%;
 
@@ -22,7 +22,7 @@
 
 .text-grade {
     width: 70%;
-    margin-left: 5%;
+    margin: 0 5% 0;
 }
 
 .title-item-grade {
@@ -38,6 +38,11 @@
     .row {
         display: flex;
         flex-direction: row;
+        width: 100%;
+    }
+
+    .item-grade {
+        width: 50%;
     }
 
 }
