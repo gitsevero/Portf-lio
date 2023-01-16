@@ -59,10 +59,15 @@ header img {
     background-image: url('/assets/img/icons/job.svg');
 }
 
+.info .github::before {
+    background-image: url('/assets/img/icons/github.svg');
+}
+
 @media only screen and (min-width: 768px) {
     .header img {
         margin-bottom: -90px;
     }
+
     .header {
         display: grid;
         grid-template-areas:
