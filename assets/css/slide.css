@@ -5,11 +5,7 @@
 
 }
 
-.btns {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
 
 .imagens-container {
     display: flex;
@@ -60,28 +56,39 @@
     position: static;
 }
 
-#prev-button,
-#next-button {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-
+.btns {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
 }
 
-#prev-button img,
-#next-button img {
-    width: 100%;
-    height: .7rem;
 
+
+#prev-button,
+#next-button {
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../img/icons/arrow-top.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    background-position: center;
+    transform: rotate(90deg);
+    background-color: transparent;
+    margin: 0 5% 0;
 }
 
 #prev-button {
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
+
 }
 
-#next-button {
-    transform: rotate(90deg);
-}
+
 
 @media only screen and (min-width: 768px) {
     .slider {
