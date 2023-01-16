@@ -1,9 +1,43 @@
-.thumb {
-    width: 40%;
-    margin: 1rem;
+.acordeon.open .content.grade {
+    padding-left: 1rem;
 }
 
-.row {
+.imggrade {
+    display: flex;
+    width: 50%;
+    height: 100%;
+
+}
+
+.thumb {
+    width: 100%;
+}
+
+
+.item-grade {
     display: flex;
     flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.text-grade {
+    width: 70%;
+    margin-left: 5%;
+}
+
+.title-item-grade {
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+}
+
+.description-item-grade {
+    font-size: .85rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
 }
