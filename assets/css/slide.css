@@ -46,6 +46,12 @@
     opacity: 1;
 }
 
+.link-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .slider.on img {
     width: 90%;
 }
