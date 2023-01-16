@@ -23,7 +23,7 @@
     transition: opacity .2s;
     align-items: center;
     position: absolute;
-    margin-bottom: 10%;
+    margin-bottom: 4rem;
     z-index: 0;
     display: none;
 }
