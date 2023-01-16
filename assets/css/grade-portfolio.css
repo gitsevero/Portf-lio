@@ -1,4 +1,9 @@
 .thumb {
-    width: 80%;
+    width: 40%;
     margin: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
 }
