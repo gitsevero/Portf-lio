@@ -1,3 +1,9 @@
-.sobre p {
-    margin: 1rem;
+.acordeon.open .content.sobre {
+    padding: 2rem 0 3rem;
+}
+
+.about {
+    margin: 0 2rem 0;
+    text-align: justify;
+    text-indent: 3rem;
 }
