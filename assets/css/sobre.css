@@ -3,7 +3,16 @@
 }
 
 .about {
-    margin: 0 2rem 0;
+    font-size: .8rem;
+    margin: 0 1rem 0;
     text-align: justify;
     text-indent: 3rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .about {
+        font-size: 1rem;
+        margin: 0 10rem 0;
+    }
+
 }
