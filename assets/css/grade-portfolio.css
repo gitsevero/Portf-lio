@@ -45,4 +45,8 @@
         width: 50%;
     }
 
+    .acordeon.open .content.grade {
+        padding: 2rem 5rem 2rem;
+    }
+
 }

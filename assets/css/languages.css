@@ -1,14 +1,19 @@
-.languages {
-    align-items: center;
-    margin: 0;
+.acordeon.open .content.idiomas {
     padding: 0;
+}
+
+.languages {
+    font-size: .75rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-left: .5rem
 }
 
 .languages li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-weight: 700
+    font-weight: 700;
 }
 
 .languages li::before {
@@ -20,4 +25,11 @@
     background-size: contain;
     background-image: url(/assets/img/icons/check.svg);
     margin-right: .5rem
+}
+
+@media only screen and (min-width: 768px) {
+    .languages {
+        font-size: 1rem;
+        margin-left: 4rem
+    }
 }
